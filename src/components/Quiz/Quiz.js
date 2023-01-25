@@ -33,6 +33,15 @@ export default class Quiz extends Component {
                         { answer: "10 Billion", isCorrect: false },
                     ],
                 },
+                {
+                    questionTitle: "Who is CEO of Tesla?",
+                    questionOptions: [
+                        { answer: "Jeff Bezos", isCorrect: true },
+                        { answer: "Elon Musk", isCorrect: false },
+                        { answer: "Bill Gates", isCorrect: false },
+                        { answer: "Tony Stark", isCorrect: false },
+                    ],
+                },
             ],
             score: 0,
             currentQuestion: 0,
